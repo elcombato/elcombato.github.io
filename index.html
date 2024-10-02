@@ -1,1 +1,46 @@
-Moin
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>knipp.top</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: system-ui;
+        }
+        .container {
+            display: flex;
+        }
+        .letter {
+            font-size: 142px;
+            font-weight: bold;
+            animation: bounce .6s infinite alternate;
+        }
+        .K { color: #F7A399; }
+        .N { color: #99C7F7; }
+        .I { color: #A3E6AA; }
+        .P1 { color: #F7A3D4; }
+        .P2 { color: #F7D699; }
+
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-100px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="letter K">K</div>
+        <div class="letter N">N</div>
+        <div class="letter I">I</div>
+        <div class="letter P1">P</div>
+        <div class="letter P2">P</div>
+    </div>
+</body>
+</html>
